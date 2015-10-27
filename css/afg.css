@@ -1,0 +1,245 @@
+#body {
+    margin: 0;
+    padding: 0;
+}
+
+.note {
+    font: small-caps 900 2vw/4vw "Arial";
+    margin: 100vh 0 0;
+    padding: 1vh;
+}
+
+.note + p, p + p {
+    color: #666666;
+    padding: 1vh;
+    text-indent: 3vh;
+}
+
+#full-vertical {
+    background: #c12708 none repeat scroll 0 0;
+    height: 50px;
+    left: -11px;
+    margin: 0;
+    padding: 6px 1px;
+    position: absolute;
+    text-align: right;
+    top: -28px;
+    transform: rotate(30deg);
+    width: 95px;
+}
+
+#vertical-li {
+    list-style-type: none;
+}
+
+#vertical-li-link {
+    background-color: #c12708;
+    color: #d9d9d9;
+    display: block;
+    font: 900 2vw/70px "Arial";
+    height: 64px;
+    left: -8px;
+    position: absolute;
+    text-decoration: none;
+    text-shadow: 0 0 3px #000;
+    top: 27px;
+    transform: rotate(-30deg);
+    width: 95px;
+}
+
+#vertical-li-link:hover {
+    color: #fbbb86;
+    text-shadow: 0 0 3px #fff;
+    text-decoration: underline;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#miniframe {
+    margin: auto;
+    height: 240px;
+    width: 320px;
+}
+
+#miniprev, #miniforward, #minigofull,
+#fullforward, #fullprev,
+#fullscreen, #fullgofull, #count {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font: 900 145px/220px "Comic Sans MS";
+    height: 240px;
+    opacity: 0.1;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px #000;
+    top: 0;
+    width: 80px;
+}
+
+#miniprev:hover, #miniforward:hover, #minigofull:hover,
+#fullforward:hover, #fullprev:hover, #fullgofull:hover {
+    color: #5c65ff;
+    cursor: pointer;
+    background: none;
+    opacity: 1;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px #fff;
+}
+
+#miniforward {
+    margin-left: 240px;
+    text-align: right;
+}
+
+#fullprev, #fullforward {
+    font: 900 145px/60px "Comic Sans MS";
+    height: 90px;
+    margin: 30vh 0 0;
+    width: 88px;
+}
+
+#fullprev {
+    bottom: 0;
+    left: 10px;
+    margin: auto;
+    top: 0;
+}
+
+#fullforward {
+    bottom: 0;
+    margin: auto;
+    top: 0;
+    right: 10px;
+}
+
+#minigofull, #fullscreen {
+    font: 900 60px/60px "Comic Sans MS";
+    height: 60px;
+    margin: 180px 0 0 80px;
+    width: 160px;
+}
+
+#minigofull, #fullgofull {
+    font: 900 130px/35px "Comic Sans MS";
+    margin: 0 0 0 80px;
+}
+
+#fullgofull {
+    top: 10px;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+#fullscreen {
+    font: 900 60px/60px "Comic Sans MS";
+    height: 60px;
+    width: 100px;
+}
+
+#fullframe {
+    background: #d9d9d9;
+}
+
+#fullphoto, #fullframe, #miniphoto, #miniframe, #minigofull {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#minigofull {
+    margin: 0 auto 60px;
+}
+
+#fullscreen, #fullforward, #fullprev, #fullgofull, #count {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #000;
+    font: 900 70px/60px "Comic Sans MS";
+    height: 70px;
+    width: 100px;
+}
+
+#count {
+    font: 900 30px/30px "Comic Sans MS";
+    height: 40px;
+    padding: 10px;
+    right: 10px;
+    top: 10px;
+    width: auto;
+}
+
+#full-width {
+    height: 4vw;
+    line-height: 4vw;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0.5vw;
+}
+
+.full-li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.full-link {
+    background-color: rgba(193, 39, 8, 0.64);
+    border-radius: 10px;
+    box-shadow: 0 0 2px #fff inset;
+    color: #fff;
+    display: block;
+    float: left;
+    font: 900 2vw/4vw Tahoma;
+    height: 4vw;
+    margin: 0 0.5vw;
+    padding: 0 1vw;
+    text-align: center;
+    text-shadow: 0 0 3px #000;
+    width: 12vw;
+}
+
+#fullscreen:hover, #fullforward:hover, #fullprev:hover {
+    opacity: 1;
+    background: #d9d9d9;
+}
+
+#fullscreen {
+    margin: 10px 0 0 45.5%;
+}
+
+#screen {
+    background: #5c65ff none repeat scroll 0 0;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#note {
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    line-height: 1.5vw;
+    opacity: 0.5;
+    padding: 0.3vw 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 1px #000;
+    width: 100%;
+}

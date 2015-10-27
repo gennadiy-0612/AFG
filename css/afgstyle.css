@@ -1,0 +1,120 @@
+#body-main {
+    background: rgba(0, 0, 0, 0) url("http://afg.pp.ua/fotos/portfolio-design/afg.jpg") no-repeat scroll 0 0 / 100% auto;
+    border-top: 1.3vw solid #fff;
+    margin: 50vw 0 0;
+    padding: 50vw 0 0;
+}
+
+.square_block {
+    margin: 0;
+    padding: 0 0.5vw 0 0;
+    position: absolute;
+    right: 0;
+    top: 5vw;
+    width: 48vw;
+}
+
+.item {
+    border-bottom: 0.5vw solid #fbbb86;
+    height: 2.8vw;
+    line-height: 3vw;
+    list-style: outside none none;
+    padding: 2.4vw 2vw;
+}
+
+.link {
+    color: #fff;
+    font: small-caps 900 5vw/3vw "Arial";
+    text-decoration: none;
+    text-shadow: 0 0 0.3vw #fff;
+}
+
+.link:hover {
+    color: #AE0203;
+    text-shadow: 0 0 0.1vw #000;
+}
+
+.logo {
+    background-color: #ae0203;
+    color: #fff;
+    cursor: default;
+    font: 900 7vw/39vw "Arial";
+    height: 39vw;
+    left: 4.5vw;
+    position: absolute;
+    text-align: center;
+    top: 6vw;
+    width: 39vw;
+}
+
+ol.square_block > li.item:last-of-type {
+    border-bottom: 0 none;
+}
+
+.play {
+    border: 0.1vw solid transparent;
+    height: 20vw;
+    left: 40vw;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 65vw;
+    transform: rotate(45deg);
+    width: 20vw;
+}
+
+.play > img {
+    background: #AE0203;
+    bottom: -1vw;
+    height: auto;
+    left: -14vw;
+    margin: auto;
+    position: absolute;
+    right: -1vw;
+    top: -5vw;
+    transform: rotate(-45deg);
+    width: 50vw;
+}
+
+#body-main h1 {
+    background: #d3d3d3 none repeat scroll 0 0;
+    color: #AE0203;
+    font: 900 6vw/9vw "Courier new";
+    margin: 0 auto;
+    text-align: center;
+    width: 93vw;
+}
+
+#body-main h2, #body-main h3 {
+    background-color: #fff;
+    color: #AE0203;
+    font: 900 4vw/7vw "Courier new";
+    margin: 0 auto 5vw;
+    text-align: center;
+    width: 93vw;
+}
+
+p {
+    color: #9f9f9f;
+    font: 100 3vw/4vw "Courier new";
+    width: 90vw;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#body-main > img {
+    display: block;
+    margin: 7vw auto 0;
+    width: 90vw;
+}
+
+.foot {
+    background: #6f0203;
+    color: #fff;
+    font: small-caps 100 4vw/5vw "Arial";
+    padding: 0 2vw;
+    text-align: right;
+    text-shadow: 0 0 3px #fdfeff;
+    margin: 7vw auto 0;
+    width: 90vw;
+}
